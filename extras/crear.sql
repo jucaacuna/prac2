@@ -27,5 +27,5 @@ INSERT INTO News (title, body, dateTime) VALUES
 ('Noticias de la UOC', 'La UOC ha decidido realizar un reconocimiento a aquellos estudiantes que en codearon durante navidad.', '2024-09-15 00:00:00');
 
 INSERT INTO Users (email, nombre, password) VALUES
-('p@p.com', 'Pierre Bezukhov', 'pbasd'),
-('nv@gmail.com', 'Natasha Rostova', 'naty1234');
+('p@p.com', 'pb', 'pb'),
+('nv@g.com', 'nr', 'nn');
