@@ -66,7 +66,10 @@ def construirValoresEmail():
 def main():
     """
     Creo el programa para trabajar con un solo campo, por razones de tiempo. Aunque,
-      la lógica es la misma para cualquier campo.
+      la lógica es la misma para cualquier campo:
+      - Se generar valores aleatorios por cada campo.
+      - Se hace la subconsulta para cada valor.
+      - Se concatena la consulta real y esperada por el sistema, con la subconsulta anterior para violar la seguridad del sistema.
     """
     for email in construirValoresEmail():
         if subconsulta("email", email):
